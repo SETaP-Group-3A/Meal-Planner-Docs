@@ -72,3 +72,10 @@ Contents
 
    usage
    api
+   project_overview
+   setup_and_run
+   app_file_responsibilities
+   data_model_and_storage_flow
+   feature_walkthrough
+   testing_and_coverage
+   limitations_and_future_improvements
