@@ -22,7 +22,7 @@ Optimize shopping list
    - Quantities can be adjusted per item
    - Selected items can be marked when shopping
 
-Graph Display
+Display Graph
 -------------
 
    1. User enters app
@@ -40,14 +40,14 @@ Update Graph Display
    2. User edits a goal
    3. On return to homepage, graph is rebuilt with new values
 
-Weekly Total
+Calculate Weekly Total
 ------------
 
    1. User enters diary
    2. WeeklyGoal finds this weeks goals
    3. GoalRepository adds all values for this week
 
-Weekly Comparison
+Calculate Weekly Comparison
 -----------------
 
    1. User enters diary
