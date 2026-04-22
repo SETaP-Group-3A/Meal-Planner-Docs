@@ -21,3 +21,22 @@ Optimize shopping list
       - **Calories** — Prioritizes healthiest (lowest calorie) options
    - Quantities can be adjusted per item
    - Selected items can be marked when shopping
+
+Graph Display
+-------------
+
+   1. User enters app
+   2. Determine the currently active user goal
+   3. GraphController creates list of this weeks values by iterating through last 7 days
+   4. GraphWidget populates axis
+      - **x**: day of the week
+      - **y**: score for that day
+
+
+Update Graph Display
+--------------------
+
+   1. User enters diary
+   2. User edits a goal
+   3. On return to homepage, graph is rebuilt with new values
+
