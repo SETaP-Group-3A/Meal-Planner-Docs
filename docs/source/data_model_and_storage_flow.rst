@@ -22,3 +22,12 @@ How shopping list data is generated and displayed:
       - Duplicate ingredients are combined with aggregated quantities
       - Sorted list is displayed in ShoppingListScreen based on the user's preference
       - Changes to quantities sync to database
+
+Page style data flow
+--------------------
+
+How app handles stylistic choices:
+
+      - app_styles stores all static style features
+      - Font sizes are set when the app is created
+      - Special text features called statically as type TextStyle
