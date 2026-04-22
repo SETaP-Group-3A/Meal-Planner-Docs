@@ -40,3 +40,17 @@ Update Graph Display
    2. User edits a goal
    3. On return to homepage, graph is rebuilt with new values
 
+Weekly Total
+------------
+
+   1. User enters diary
+   2. WeeklyGoal finds this weeks goals
+   3. GoalRepository adds all values for this week
+
+Weekly Comparison
+-----------------
+
+   1. User enters diary
+   2. WeeklyGoal finds this weeks goals
+   3. Then find last weeks goals
+   4. GoalRepository subtracts this weeks value from last week
