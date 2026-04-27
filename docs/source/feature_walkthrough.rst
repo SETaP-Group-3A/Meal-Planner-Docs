@@ -62,8 +62,9 @@ Display current week goals
    2. Last key index of goals in retrieved
    3. Each goal mapped to a DayGoalWidget
 
-Display a day goal
--------------------------
+Display day goal
+----------------
    1. Goal for day is passed to DayGoalWidget
    2. Inputfield created with label of index number
    3. Inputfield value is set to existing amount
+
