@@ -68,3 +68,18 @@ Display day goal
    2. Inputfield created with label of index number
    3. Inputfield value is set to existing amount
 
+Categories
+----------
+   1. User enters the categories
+   2. Categories are displayed through buttons linked to database
+   3. User enters a specific category
+   4. Recipes are fetched from database
+   5. Category then displays the appropriate recipes from database
+   6. User is then able to view recipe, favourite, or add to shopping cart
+
+Favourite Category
+------------------
+   1. User enters the favourite category
+   2. Recipes are fetched from the user's preferred recipes
+   3. Recipes are then displayed for the user
+   4. User is then able to view recipe, remove from favourites, or add to shopping cart
