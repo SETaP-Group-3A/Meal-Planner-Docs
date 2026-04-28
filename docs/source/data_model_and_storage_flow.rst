@@ -31,3 +31,23 @@ How app handles stylistic choices:
       - app_styles stores all static style features
       - Font sizes are set when the app is created
       - Special text features called statically as type TextStyle
+
+Category data flow
+------------------
+How categories data is displayed and generated:
+
+      - User opens categories page
+      - Categories retrieves recipes from database
+      - System, organises and displays these categories, and retrieves nutritional information
+      - Nutritional information is displayed for the recipe
+      - User favourites a recipe
+      - Recipe id is then stored in the user's preferred recipes within the database
+
+Favourite category data flow
+----------------------------
+How favourite category data is displayed and generated:
+
+      - User opens favourites category
+      - Categories retrieves the user's preferred recipes from database
+      - System, organises and displays these categories, and retrieves nutritional information
+      - Nutritional information is displayed for the recipe
