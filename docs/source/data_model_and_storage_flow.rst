@@ -35,6 +35,7 @@ How app handles stylistic choices:
 Category data flow
 ------------------
 How categories data is displayed and generated:
+
       - User opens categories page
       - Categories retrieves recipes from database
       - System, organises and displays these categories, and retrieves nutritional information
@@ -45,6 +46,7 @@ How categories data is displayed and generated:
 Favourite category data flow
 ----------------------------
 How favourite category data is displayed and generated:
+
       - User opens favourites category
       - Categories retrieves the user's preferred recipes from database
       - System, organises and displays these categories, and retrieves nutritional information
