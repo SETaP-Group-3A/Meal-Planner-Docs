@@ -68,6 +68,20 @@ Display day goal
    2. Inputfield created with label of index number
    3. Inputfield value is set to existing amount
 
+Setup goals system
+------------------
+
+   1. User creates an account in
+   2. Account date is saved
+   3. Empty week of goals is written to database
+
+Add new week of goals
+---------------------
+
+   1. Account data is retrieved
+   2. Goals are populated
+   3. If last week date 7 days in the past, create new empty week
+
 Categories
 ----------
    1. User enters the categories
