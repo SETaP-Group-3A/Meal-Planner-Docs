@@ -110,8 +110,8 @@ Categories
    4. Recipes are fetched from database
    5. Category then displays the appropriate recipes from database
    6. User is then able to view recipe, favourite, or add to shopping cart
-   7. Users can search through differnet categories using a search bar.
-   8. Users can search resepies in a given category folder using a search bar.
+   7. Users can search through different categories using the search bar.
+   8. Users can search recipes in a given category folder using the search bar.
 
 Favourite Category
 ------------------
