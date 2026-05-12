@@ -133,4 +133,6 @@ Log in page
 
    1. User inputs email
    2. User inputs password
-   3. user opens application in their account with previously stored data
+   3. Upon button press, user data is fetched from database
+   4. User input matched to database credentials
+   5. user opens application in their account with previously stored data
