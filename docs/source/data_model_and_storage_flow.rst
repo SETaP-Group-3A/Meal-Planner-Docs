@@ -77,6 +77,7 @@ How favourite category data is displayed and generated:
 
 Log in data flow
 ----------------
+How the user enters the application:
 
       - User opens application
       - Application shows input fields for entering email and password
@@ -88,6 +89,7 @@ Log in data flow
 
 Account creation data flow
 --------------------------
+How the user creates an account:
 
       - User opens Account Creation page
       - Application shows input fields for entering email, entering password and confirming password
