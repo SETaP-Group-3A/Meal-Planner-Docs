@@ -74,3 +74,26 @@ How favourite category data is displayed and generated:
       - Categories retrieves the user's preferred recipes from database
       - System, organises and displays these categories, and retrieves nutritional information
       - Nutritional information is displayed for the recipe
+
+Log in data flow
+----------------
+
+      - User opens application
+      - Application shows input fields for entering email and password
+      - User enters own email
+      - User enters own password
+      - User presses "Log In"
+      - Application retrieves user credentials from database and checks validation
+      - Application opens on user's specified account or displays error message if incorrect
+
+Account creation data flow
+--------------------------
+
+      - User opens Account Creation page
+      - Application shows input fields for entering email, entering password and confirming password
+      - User inputs new email
+      - User inputs new password
+      - User repeats new password
+      - User presses "Create Account"
+      - Application validates credentials and either stores new information in database or displays error message if incorrect
+      - Application opens log in page for user to enter credentials
