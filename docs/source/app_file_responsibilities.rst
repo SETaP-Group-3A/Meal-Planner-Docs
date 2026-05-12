@@ -14,6 +14,7 @@ App file responsibilities
       - ``lib/models/ingredient.dart``
       - ``lib/models/category.dart``
       - ``lib/models/shopping_list_item.dart`` — Represents an ingredient with its quantity
+      - ``lib/models/store.dart``
    - Data access:
 
       - ``lib/services/database_service.dart`` — Database connection for the whole application
@@ -29,6 +30,10 @@ App file responsibilities
    - Styling:
 
       - ``lib/views/app_styles.dart``
+   - Utils
+
+      - ``lib/utils/haversine.dart`` — Distance calculation whilst preventing circular dependency
+
    - Tests:
 
       - ``test/``
