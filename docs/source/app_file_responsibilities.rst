@@ -18,6 +18,7 @@ App file responsibilities
 
       - ``lib/services/database_service.dart`` — Database connection for the whole application
       - ``lib/services/category_service.dart``
+      - ``lib/services/location_service.dart`` — Distance calculation using haversine and geocoding
    - Shopping list logic:
 
       - ``lib/shopping_list.dart`` — Managing in-memory shopping list, ingredient aggregation, and sorting

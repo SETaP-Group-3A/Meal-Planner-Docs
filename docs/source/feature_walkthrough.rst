@@ -22,6 +22,14 @@ Optimize shopping list
    - Quantities can be adjusted per item
    - Selected items can be marked when shopping
 
+Distance Calculation
+----------------------
+
+   1. User enters settings
+   2. User inputs a valid postcode address and opts in to location
+   3. Address is passed to location service to calculate distance to nearby stores
+   4. Distance to each ingredient is updated and displayed on future shopping lists
+
 Display Graph
 -------------
 

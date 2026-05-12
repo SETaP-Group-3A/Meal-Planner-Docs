@@ -23,6 +23,29 @@ How shopping list data is generated and displayed:
       - Sorted list is displayed in ShoppingListScreen based on the user's preference
       - Changes to quantities sync to database
 
+Location service data flow
+-----------------------
+
+How location data is calculated and used:
+
+      - User inputs a valid postcode address and opts in to location
+      - Address is passed to location service to calculate distance to nearby stores
+      - User's location is passed to an API to calculate longitude and latitude
+      - User's location and each ingredient's store location is passed to haversine formulat to calculate distance
+      - Distance to each ingredient is updated and displayed on future shopping lists
+
+Shopping list data flow
+-----------------------
+
+How shopping list data is generated and displayed:
+
+      - User adds recipe to shopping list
+      - ShoppingList retrieves recipe ingredients from database
+      - For each ingredient, the system selects best variant (by cost/distance/calories)
+      - Duplicate ingredients are combined with aggregated quantities
+      - Sorted list is displayed in ShoppingListScreen based on the user's preference
+      - Changes to quantities sync to database
+
 Page style data flow
 --------------------
 
