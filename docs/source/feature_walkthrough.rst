@@ -110,6 +110,8 @@ Categories
    4. Recipes are fetched from database
    5. Category then displays the appropriate recipes from database
    6. User is then able to view recipe, favourite, or add to shopping cart
+   7. Users can search through differnet categories using a search bar.
+   8. Users can search resepies in a given category folder using a search bar.
 
 Favourite Category
 ------------------
@@ -130,6 +132,7 @@ Settings Page
    6. Accessibility Settings shows the current theme and updates automatically when it changes
    7. User can switch Dark Mode on or off, and the app immediately applies and saves the preference
    8. When the app starts, it remembers the user’s theme choice and applies it across the app
+   9. Users can select a primary goal from a dropdown which is saved.
 
 Account creation page
 ---------------------
