@@ -79,8 +79,8 @@ Display day goal
 Setup goals system
 ------------------
 
-   1. User creates an account in
-   2. Account date is saved
+   1. User creates an account during login
+   2. Date of login is saved
    3. Empty week of goals is written to database
 
 Add new week of goals
@@ -89,6 +89,11 @@ Add new week of goals
    1. Account data is retrieved
    2. Goals are populated
    3. If last week date 7 days in the past, create new empty week
+
+Update Goal Value
+-----------------
+   1. User edits goal value in diary
+   2. Once updated, new value is written over existing in database
 
 Categories
 ----------
