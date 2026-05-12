@@ -35,8 +35,8 @@ App file responsibilities
 
    - Log in logic:
 
-      - ``lib/views/log_in.dart'' - Managing user credential entry
+      - ``lib/views/log_in.dart`` - Managing user credential entry
 
    - Account creation logic:
 
-      - ``lib/views/sign_up.dart'' - Managing user account creation credential entry
+      - ``lib/views/sign_up.dart`` - Managing user account creation credential entry
