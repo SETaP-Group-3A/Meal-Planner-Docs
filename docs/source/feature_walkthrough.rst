@@ -118,3 +118,19 @@ Settings Page
    6. Accessibility Settings shows the current theme and updates automatically when it changes
    7. User can switch Dark Mode on or off, and the app immediately applies and saves the preference
    8. When the app starts, it remembers the user’s theme choice and applies it across the app
+
+Account creation page
+---------------------
+
+   1. User enters a new email for their account
+   2. User enters a new password for their account
+   3. User confirms the same password previously written
+   4. User creates their account
+   5. User data is stored in database
+
+Log in page
+-----------
+
+   1. User inputs email
+   2. User inputs password
+   3. user opens application in their account with previously stored data
