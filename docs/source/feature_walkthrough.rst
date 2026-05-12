@@ -95,6 +95,13 @@ Update Goal Value
    1. User edits goal value in diary
    2. Once updated, new value is written over existing in database
 
+Change Goal Type
+----------------
+   1. User adjusts goal type in settings
+   2. Clear existing goals from weeklygoals
+   3. Attempt to retrieve existing goals for new type from database
+   4. If no existing goals, create a new empty week of goals for this type
+
 Categories
 ----------
    1. User enters the categories
