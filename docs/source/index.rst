@@ -1,10 +1,6 @@
 Team 3A Meal Planner!
 =====================
 
-.. note::
-
-   The contents are each page we then need to expand on over the documentation writing
-
 Contents
 --------
 
