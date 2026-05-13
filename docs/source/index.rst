@@ -1,9 +1,6 @@
 Team 3A Meal Planner!
 =====================
 
-Contents
---------
-
 .. toctree::
    :maxdepth: 1
    project_overview
@@ -13,8 +10,6 @@ Contents
    app_file_responsibilities
    data_model_and_storage_flow
    limitations_and_future_improvements
-
----
 
 .. toctree::
    :maxdepth: 2
