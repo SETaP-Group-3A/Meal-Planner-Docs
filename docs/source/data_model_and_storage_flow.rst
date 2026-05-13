@@ -34,18 +34,6 @@ How location data is calculated and used:
       - User's location and each ingredient's store location is passed to haversine formulat to calculate distance
       - Distance to each ingredient is updated and displayed on future shopping lists
 
-Shopping list data flow
------------------------
-
-How shopping list data is generated and displayed:
-
-      - User adds recipe to shopping list
-      - ShoppingList retrieves recipe ingredients from database
-      - For each ingredient, the system selects best variant (by cost/distance/calories)
-      - Duplicate ingredients are combined with aggregated quantities
-      - Sorted list is displayed in ShoppingListScreen based on the user's preference
-      - Changes to quantities sync to database
-
 Page style data flow
 --------------------
 
