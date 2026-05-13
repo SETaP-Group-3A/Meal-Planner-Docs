@@ -151,3 +151,17 @@ Log in page
    3. Upon button press, user data is fetched from database
    4. User input matched to database credentials
    5. user opens application in their account with previously stored data
+
+Recipe Scaling & Dynamic Serving Sizes
+--------------------------------------
+1. **Navigate to a Recipe:** Tap on any recipe from the category grid to open the Recipe Details page.
+2. **Adjust Servings:** Locate the serving size counter at the top of the ingredient list. Tap the '+' or '-' buttons to increase or decrease the desired number of servings.
+3. **Dynamic Scaling:** As the serving size changes, observe that the ingredient quantities automatically recalculate in real-time. 
+4. **Calorie/Macro Updates:** If the 'Advanced' view toggle is enabled, the total calories and nutritional macros will also scale proportionally.
+
+Custom Recipe & Category Creation
+---------------------------------
+1. **Create a Custom Folder:** Navigate to the Categories screen. Tap the Floating Action Button (+) in the corner. Enter a name (e.g., "Weekend Meals") and tap **Create**.
+2. **Add a Custom Recipe:** Navigate to the Add Recipe screen. 
+3. **Fill out Details:** Enter the recipe name, preparation time, and use the search bar to add ingredients. 
+4. **Save and Persist:** Tap **Save Recipe**. The recipe is saved to the SQLite database and will appear in your category folder for future use.
