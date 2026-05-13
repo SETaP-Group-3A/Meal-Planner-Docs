@@ -6,8 +6,9 @@ App file responsibilities
    - Feature screens:
 
       - ``lib/views/categories.dart``
-      - ``lib/views/shopping_list_screen.dart`` — Displays shopping list with sorting and quantity management
-      - ``lib/views/recipe_page.dart``
+      - ``lib/views/shopping_list_screen.dart`` — Displays shopping list with sorting and quantity             management
+      - ``lib/views/recipe_page.dart`` — Handles dynamic serving size calculations, local state for           ingredient exclusion, and advanced nutritional views.
+      - ``lib/views/add_recipe_screen.dart`` — Manages UI state and data conversion for custom                recipe creation and SQLite persistence routing.
    - Models:
 
       - ``lib/models/recipe.dart``
